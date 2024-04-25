@@ -1,6 +1,6 @@
 variable name{
-  type = string
+  type = number
 }
 output print{
-  value = "My name is sachin"
+  value = "My name is ${var.name}"
 }
